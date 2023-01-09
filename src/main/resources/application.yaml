@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: pd-technology
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+server:
+  port: 8081
